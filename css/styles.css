@@ -108,6 +108,17 @@ header {
   background-color: #424e64;
   color: #bbc2ca;
   padding: 1rem 2%; }
+  header form {
+    float: right; }
+  header form input {
+    width: 6rem;
+    border-radius: 10px;
+    margin-right: 2%;
+    padding: .2rem;
+    border: none;
+    transition: width .5s; }
+  header form input:focus {
+    width: 8rem; }
   header h1 {
     font-size: 2rem;
     font-weight: 300; }
@@ -215,6 +226,7 @@ footer {
     box-shadow: 0 0 10px #000000;
     background-color: #fff; }
 
+  /*----------------------HEADER ---------------*/
   /* -------------------- NAVIGATION -----------*/
   nav ul {
     margin-left: 2%;
